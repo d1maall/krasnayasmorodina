@@ -1,0 +1,88 @@
+@import "http://webfonts.ru/import/ralewayc.css";
+@import "http://webfonts.ru/import/newathena.css";
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.main {
+  width: 100%;
+  height: 100%; }
+  .main .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden; }
+  .main .slideshow {
+    position: relative !important; }
+  .main .right {
+    background-color: #90DAC0;
+    width: 50%;
+    height: 100%;
+    float: right; }
+  .main .content {
+    position: relative;
+    border: solid white 2px;
+    margin-top: 15px;
+    margin-left: 15px; }
+  .main .title {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff; }
+    .main .title h1 {
+      font-family: "New Athena Unicode";
+      font-size: 3.5em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      margin-bottom: 0; }
+    .main .title p {
+      margin-top: 10%;
+      text-transform: uppercase;
+      font-size: 1em;
+      letter-spacing: 2px;
+      font-family: "Raleway Cyr", serif;
+      font-weight: 200; }
+
+.button {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid white 1px;
+  font-family: "Raleway Cyr", serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.menu {
+  width: 100%;
+  top: 0;
+  text-align: center;
+  font-family: "Raleway Cyr", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff; }
+  .menu ul {
+    padding: 0; }
+  .menu ul li {
+    display: inline-block;
+    width: 30%;
+    font-size: 0.8em; }
+
+.one {
+  width: 100%;
+  height: 100%;
+  background-color: lightcyan; }
+
+/*# sourceMappingURL=test.css.map */

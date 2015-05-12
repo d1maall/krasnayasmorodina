@@ -1,0 +1,85 @@
+@import "bourbon/bourbon"
+@import "http://webfonts.ru/import/ralewayc.css"
+@import "http://webfonts.ru/import/newathena.css"
+
+html, body
+  margin: 0
+  padding: 0
+  width: 100%
+  height: 100%
+
+.main
+  width: 100%
+  height: 100%
+  .left
+    width: 50%
+    height: 100%
+    float: left
+    overflow: hidden
+  .slideshow
+    position: relative !important
+  .right
+    background-color: #90DAC0
+    width: 50%
+    height: 100%
+    float: right
+  .content
+    position: relative
+    border: solid white 2px
+    margin-top: 15px
+    margin-left: 15px
+  .title
+    position: absolute
+    text-align: center
+    top: 50%
+    left: 50%
+    @include transform(translateX(-50%) translateY(-50%))
+    color: #fff
+    h1
+      font-family: 'New Athena Unicode'
+      font-size: 3.5em
+      text-transform: uppercase
+      letter-spacing: 2px
+      font-weight: 400
+      margin-bottom: 0
+    p
+      margin-top: 10%
+      text-transform: uppercase
+      font-size: 1em
+      letter-spacing: 2px
+      font-family: 'Raleway Cyr', serif
+      font-weight: 200
+.button
+  width: 50%
+  margin-left: 25%
+  margin-top: 10%
+  padding-top: 10px
+  padding-bottom: 10px
+  //height: auto
+  border: solid white 1px
+  font-family: 'Raleway Cyr', serif
+  font-weight: 200
+  letter-spacing: 1px
+  text-transform: uppercase
+
+.menu
+  width: 100%
+  top: 0
+  text-align: center
+  font-family: 'Raleway Cyr', serif
+  font-weight: 400
+  text-transform: uppercase
+  letter-spacing: 2px
+  color: #ffffff
+  ul
+    padding: 0
+  ul li
+    display: inline-block
+    width: 30%
+    font-size: 0.8em
+
+.one
+  width: 100%
+  height: 100%
+  background-color: lightcyan
+
